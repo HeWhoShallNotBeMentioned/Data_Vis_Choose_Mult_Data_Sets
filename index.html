@@ -2,10 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Global Temperature and CO2 Concentration (NOAA Data)</title>
+    <title>Gross Domestic Product(Current USD in Trillions)</title>
   </head>
   <body>
-    <div id="chart" style="width:800px;height:600px;"></div>
+    <div id="visualization">
+      <div>       Gross Domestic Product (Current US$ in Trillions)</div>
+      <div id="chart" style="width:800px;height:600px;float:left;"></div>
+        <div id = "controls" style="float:left;">
+          <div>Select Regions to Include</div>
+          <div><label><input type="checkbox" checked>East Asia & Pacific</label></div>
+          <div><label><input type="checkbox" checked>Europe & Central Asia</label></div>
+          <div><label><input type="checkbox" checked>Latin America & Caribbean</label></div>
+          <div><label><input type="checkbox" checked>Middle East & North Africa</label></div>
+          <div><label><input type="checkbox" checked>South Asia</label></div>
+          <div><label><input type="checkbox" checked>Sub-Saharan Africa</label></div>
+        </div>
+    </div>
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.js"> </script>
     <script>
