@@ -56,7 +56,14 @@
       ]
 
     $(function () {
-      $.plot($('#chart'), [eas,ecs,lcn,mea,sas,ssf]);
+      $.plot($('#chart'),
+      $.map(
+        $.grep(
+          source,
+          function (obj) {return obj.show;}
+        ),
+        function (obj) { return {data: obj.data, color: obj.color}; }
+      )
     });
     </script>
   </body>
