@@ -1,6 +1,6 @@
-# _Simple Line Chart_
+# _Data_Vis_Choose_Mult_Data_Sets_
 
-#### _{Displays 50 years of CO2 and global temp numbers graphically}, {4/1/2016}_
+#### _{Line chart with up to 6 lines, with one for each data set.}, {4/6/2016}_
 
 #### By _**{Chris Underwood}**_
 
@@ -23,8 +23,9 @@ contact me at cunderwoodmn at gmail dot com.
 
 ## Technologies Used
 
-Uses the flotr2 javascript library. http://www.humblesoftware.com/flotr2/
+Uses the flot javascript library. http://www.flotcharts.org
 HTML5
+CSS
 JavaScript
 
 ### License
