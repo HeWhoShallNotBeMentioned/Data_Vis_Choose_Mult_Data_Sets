@@ -1,6 +1,6 @@
 # _Data_Vis_Choose_Mult_Data_Sets_
 
-#### _{Line chart with up to 6 lines, with one for each data set.}, {4/6/2016}_
+#### _{Line chart with up to 6 lines, with one for each data set.}, {5/26/2016}_
 
 #### By _**{Chris Underwood}**_
 
