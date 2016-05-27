@@ -6,7 +6,7 @@
 
 ## Description
 
-_{Static chart that shows the relationship between CO2 in the atmosphere and the rise in global temps. Data is stored in a series of arrays in the script. Adapted in part from Data Visualization with JavaScript by Stephen A. Thomas}_
+_{Interactive chart that allows a user to view one of six data sets related to economic growth in regions around the world. By clicking on the region in the legend the dataset can be turned on or off. Adapted in part from Data Visualization with JavaScript by Stephen A. Thomas}_
 
 ## Setup/Installation Requirements
 Download the files.
